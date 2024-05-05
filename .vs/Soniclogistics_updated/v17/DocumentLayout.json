@@ -1,0 +1,395 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|c:\\users\\administrator\\source\\repos\\soniclogistics_updated\\soniclogistics_updated\\controllers\\rfqscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|solutionrelative:soniclogistics_updated\\controllers\\rfqscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|c:\\users\\administrator\\source\\repos\\soniclogistics_updated\\soniclogistics_updated\\models\\rfq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|solutionrelative:soniclogistics_updated\\models\\rfq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|c:\\users\\administrator\\source\\repos\\soniclogistics_updated\\soniclogistics_updated\\views\\rfqs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|solutionrelative:soniclogistics_updated\\views\\rfqs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|c:\\users\\administrator\\source\\repos\\soniclogistics_updated\\soniclogistics_updated\\views\\rfqs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|solutionrelative:soniclogistics_updated\\views\\rfqs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|c:\\users\\administrator\\source\\repos\\soniclogistics_updated\\soniclogistics_updated\\views\\rfqs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|solutionrelative:soniclogistics_updated\\views\\rfqs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|c:\\users\\administrator\\source\\repos\\soniclogistics_updated\\soniclogistics_updated\\views\\rfqs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|solutionrelative:soniclogistics_updated\\views\\rfqs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|c:\\users\\administrator\\source\\repos\\soniclogistics_updated\\soniclogistics_updated\\views\\rfqs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|solutionrelative:soniclogistics_updated\\views\\rfqs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|c:\\users\\administrator\\source\\repos\\soniclogistics_updated\\soniclogistics_updated\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|solutionrelative:soniclogistics_updated\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|c:\\users\\administrator\\source\\repos\\soniclogistics_updated\\soniclogistics_updated\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|solutionrelative:soniclogistics_updated\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|c:\\users\\administrator\\source\\repos\\soniclogistics_updated\\soniclogistics_updated\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|solutionrelative:soniclogistics_updated\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|c:\\users\\administrator\\source\\repos\\soniclogistics_updated\\soniclogistics_updated\\models\\mydatadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|solutionrelative:soniclogistics_updated\\models\\mydatadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|c:\\users\\administrator\\source\\repos\\soniclogistics_updated\\soniclogistics_updated\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|solutionrelative:soniclogistics_updated\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|c:\\users\\administrator\\source\\repos\\soniclogistics_updated\\soniclogistics_updated\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|solutionrelative:soniclogistics_updated\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|c:\\users\\administrator\\source\\repos\\soniclogistics_updated\\soniclogistics_updated\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|solutionrelative:soniclogistics_updated\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|c:\\users\\administrator\\source\\repos\\soniclogistics_updated\\soniclogistics_updated\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|solutionrelative:soniclogistics_updated\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|c:\\users\\administrator\\source\\repos\\soniclogistics_updated\\soniclogistics_updated\\controllers\\grnscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|solutionrelative:soniclogistics_updated\\controllers\\grnscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|c:\\users\\administrator\\source\\repos\\soniclogistics_updated\\soniclogistics_updated\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|solutionrelative:soniclogistics_updated\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|c:\\users\\administrator\\source\\repos\\soniclogistics_updated\\soniclogistics_updated\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|solutionrelative:soniclogistics_updated\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|c:\\users\\administrator\\source\\repos\\soniclogistics_updated\\soniclogistics_updated\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|solutionrelative:soniclogistics_updated\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|c:\\users\\administrator\\source\\repos\\soniclogistics_updated\\soniclogistics_updated\\controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|solutionrelative:soniclogistics_updated\\controllers\\invoicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|c:\\users\\administrator\\source\\repos\\soniclogistics_updated\\soniclogistics_updated\\controllers\\poescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|solutionrelative:soniclogistics_updated\\controllers\\poescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|c:\\users\\administrator\\source\\repos\\soniclogistics_updated\\soniclogistics_updated\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2CB3D11-E221-48F6-8513-9AFD6A3C5F0F}|Soniclogistics_updated\\Soniclogistics_updated.csproj|solutionrelative:soniclogistics_updated\\controllers\\supplierscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Program.cs",
+              "RelativeDocumentMoniker": "Soniclogistics_updated\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Program.cs",
+              "RelativeToolTip": "Soniclogistics_updated\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T03:27:26.152Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Views\\Rfqs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Soniclogistics_updated\\Views\\Rfqs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Views\\Rfqs\\Index.cshtml",
+              "RelativeToolTip": "Soniclogistics_updated\\Views\\Rfqs\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvyUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T03:44:39.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Views\\Rfqs\\Details.cshtml",
+              "RelativeDocumentMoniker": "Soniclogistics_updated\\Views\\Rfqs\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Views\\Rfqs\\Details.cshtml*",
+              "RelativeToolTip": "Soniclogistics_updated\\Views\\Rfqs\\Details.cshtml*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T03:44:21.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Views\\Rfqs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Soniclogistics_updated\\Views\\Rfqs\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Views\\Rfqs\\Edit.cshtml*",
+              "RelativeToolTip": "Soniclogistics_updated\\Views\\Rfqs\\Edit.cshtml*",
+              "ViewState": "AQIAAAcAAAAAAAAAAAASwDQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T03:44:33.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Rfq.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Models\\Rfq.cs",
+              "RelativeDocumentMoniker": "Soniclogistics_updated\\Models\\Rfq.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Models\\Rfq.cs",
+              "RelativeToolTip": "Soniclogistics_updated\\Models\\Rfq.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwCwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T03:42:21.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RfqsController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Controllers\\RfqsController.cs",
+              "RelativeDocumentMoniker": "Soniclogistics_updated\\Controllers\\RfqsController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Controllers\\RfqsController.cs",
+              "RelativeToolTip": "Soniclogistics_updated\\Controllers\\RfqsController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAkwEAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T02:59:31.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Views\\Rfqs\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Soniclogistics_updated\\Views\\Rfqs\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Views\\Rfqs\\Delete.cshtml*",
+              "RelativeToolTip": "Soniclogistics_updated\\Views\\Rfqs\\Delete.cshtml*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T03:44:18.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Views\\Rfqs\\Create.cshtml",
+              "RelativeDocumentMoniker": "Soniclogistics_updated\\Views\\Rfqs\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Views\\Rfqs\\Create.cshtml",
+              "RelativeToolTip": "Soniclogistics_updated\\Views\\Rfqs\\Create.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAiwDUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T03:38:33.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Soniclogistics_updated\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Models\\Product.cs",
+              "RelativeToolTip": "Soniclogistics_updated\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T14:55:34.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Soniclogistics_updated\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Soniclogistics_updated\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T03:08:13.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MyDataDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Models\\MyDataDbContext.cs",
+              "RelativeDocumentMoniker": "Soniclogistics_updated\\Models\\MyDataDbContext.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Models\\MyDataDbContext.cs",
+              "RelativeToolTip": "Soniclogistics_updated\\Models\\MyDataDbContext.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA4wBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T02:47:01.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "Soniclogistics_updated\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "Soniclogistics_updated\\Views\\Products\\Create.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T03:40:25.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Soniclogistics_updated\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Soniclogistics_updated\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T03:04:43.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Soniclogistics_updated\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Soniclogistics_updated\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T03:04:44.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Soniclogistics_updated\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Soniclogistics_updated\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T03:08:05.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GrnsController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Controllers\\GrnsController.cs",
+              "RelativeDocumentMoniker": "Soniclogistics_updated\\Controllers\\GrnsController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Controllers\\GrnsController.cs",
+              "RelativeToolTip": "Soniclogistics_updated\\Controllers\\GrnsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T03:00:41.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\appsettings.json",
+              "RelativeDocumentMoniker": "Soniclogistics_updated\\appsettings.json",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\appsettings.json",
+              "RelativeToolTip": "Soniclogistics_updated\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-04T03:12:43.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Soniclogistics_updated\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Soniclogistics_updated\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T03:04:37.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SuppliersController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Controllers\\SuppliersController.cs",
+              "RelativeDocumentMoniker": "Soniclogistics_updated\\Controllers\\SuppliersController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Controllers\\SuppliersController.cs",
+              "RelativeToolTip": "Soniclogistics_updated\\Controllers\\SuppliersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T02:57:56.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Soniclogistics_updated\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\appsettings.Development.json",
+              "RelativeToolTip": "Soniclogistics_updated\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-04T02:29:06.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PoesController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Controllers\\PoesController.cs",
+              "RelativeDocumentMoniker": "Soniclogistics_updated\\Controllers\\PoesController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Controllers\\PoesController.cs",
+              "RelativeToolTip": "Soniclogistics_updated\\Controllers\\PoesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T02:59:56.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "InvoicesController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Controllers\\InvoicesController.cs",
+              "RelativeDocumentMoniker": "Soniclogistics_updated\\Controllers\\InvoicesController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Controllers\\InvoicesController.cs",
+              "RelativeToolTip": "Soniclogistics_updated\\Controllers\\InvoicesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T03:01:09.569Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

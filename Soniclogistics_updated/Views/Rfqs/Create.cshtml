@@ -1,0 +1,84 @@
+﻿@model Soniclogistics_updated.Models.Rfq
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Rfq</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group">
+                <label asp-for="OperationalUnit" class="control-label"></label>
+                <input asp-for="OperationalUnit" class="form-control" />
+                <span asp-validation-for="OperationalUnit" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ShippingAddress" class="control-label"></label>
+                <input asp-for="ShippingAddress" class="form-control" />
+                <span asp-validation-for="ShippingAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CreateDate" class="control-label"></label>
+                <input asp-for="CreateDate" class="form-control" />
+                <span asp-validation-for="CreateDate" class="text-danger"></span>
+                <!-- Product and Quantity Section -->
+                <div id="productSection">
+                    <div class="form-group product-group">
+                        <label class="control-label">Product</label>
+                        <select class="form-control product-select" name="ProductName">
+                            <option value="">Select a product...</option>
+                            <option value="Product1">Product 1</option>
+                            <option value="Product2">Product 2</option>
+                            <option value="Product3">Product 3</option>
+                        </select>
+                        <label class="control-label">Quantity</label>
+                        <input type="number" class="form-control quantity-input" name="Quantity" />
+                        <button type="button" class="btn btn-sm btn-danger remove-product">Remove</button>
+                    </div>
+                </div>
+                <button type="button" id="addProduct" class="btn btn-sm btn-primary">Add Product</button>
+
+           
+          
+            <div class="form-group">
+                <label asp-for="Currency" class="control-label"></label>
+                <input asp-for="Currency" class="form-control" />
+                <span asp-validation-for="Currency" class="text-danger"></span>
+            </div>
+         
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        $(document).ready(function () {
+            $("#addProduct").click(function () {
+                var productGroup = $(".product-group").first().clone();
+                productGroup.find(".product-select").val("");
+                productGroup.find(".quantity-input").val("");
+                $("#productSection").append(productGroup);
+            });
+
+            $(document).on("click", ".remove-product", function () {
+                $(this).parent(".product-group").remove();
+            });
+        });
+    </script>
+}
+
+

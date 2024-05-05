@@ -1,0 +1,83 @@
+﻿@model IEnumerable<Soniclogistics_updated.Models.Grn>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.GrnDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProdId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Warehouse)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BatchNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ApprovedWarehouse)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnapprovedWarehouse)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SupId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RfqId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Order)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.GrnDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProdId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Warehouse)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BatchNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ApprovedWarehouse)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnapprovedWarehouse)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SupId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RfqId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Order.OrderId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.GrnId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.GrnId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.GrnId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

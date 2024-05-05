@@ -1,0 +1,77 @@
+﻿@model Soniclogistics_updated.Models.Grn
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Grn</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="GrnId" class="control-label"></label>
+                <input asp-for="GrnId" class="form-control" />
+                <span asp-validation-for="GrnId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GrnDate" class="control-label"></label>
+                <input asp-for="GrnDate" class="form-control" />
+                <span asp-validation-for="GrnDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProdId" class="control-label"></label>
+                <input asp-for="ProdId" class="form-control" />
+                <span asp-validation-for="ProdId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Warehouse" class="control-label"></label>
+                <input asp-for="Warehouse" class="form-control" />
+                <span asp-validation-for="Warehouse" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BatchNo" class="control-label"></label>
+                <input asp-for="BatchNo" class="form-control" />
+                <span asp-validation-for="BatchNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ApprovedWarehouse" class="control-label"></label>
+                <input asp-for="ApprovedWarehouse" class="form-control" />
+                <span asp-validation-for="ApprovedWarehouse" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UnapprovedWarehouse" class="control-label"></label>
+                <input asp-for="UnapprovedWarehouse" class="form-control" />
+                <span asp-validation-for="UnapprovedWarehouse" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SupId" class="control-label"></label>
+                <input asp-for="SupId" class="form-control" />
+                <span asp-validation-for="SupId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RfqId" class="control-label"></label>
+                <input asp-for="RfqId" class="form-control" />
+                <span asp-validation-for="RfqId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OrderId" class="control-label"></label>
+                <select asp-for="OrderId" class ="form-control" asp-items="ViewBag.OrderId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
