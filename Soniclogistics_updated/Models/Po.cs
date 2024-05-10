@@ -65,4 +65,8 @@ public partial class Po
     [ForeignKey("SupId")]
     [InverseProperty("Pos")]
     public virtual Supplier Sup { get; set; } = null!;
+
+    [Column("Price")]
+    public int Price { get; set; }
+
 }

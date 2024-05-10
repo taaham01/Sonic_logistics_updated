@@ -19,11 +19,36 @@ namespace Soniclogistics_updated.Controllers
         }
 
         // GET: Poes
-        public async Task<IActionResult> Index()
+      public async Task<IActionResult> Index()
+{
+    var POS_data = await _context.Pos.ToListAsync();
+
+    var query = from pos in _context.Pos
+                join rfq in _context.Rfqs on pos.RfqId equals rfq.RfqId
+                join product in _context.Products on rfq.ProductName equals product.ProdId
+                select new { pos, rfq, product };
+
+    Dictionary<int, string> rfqProductsMap = new Dictionary<int, string>();
+
+    foreach (var result in query)
+    {
+        if (!rfqProductsMap.ContainsKey(result.rfq.RfqId))
         {
-            var myDataDbContext = _context.Pos.Include(p => p.Prod).Include(p => p.Rfq).Include(p => p.Sup);
-            return View(await myDataDbContext.ToListAsync());
+            rfqProductsMap[result.rfq.RfqId] = $"{result.product.ProductName} - {result.rfq.Quantity}";
         }
+        else
+        {
+            rfqProductsMap[result.rfq.RfqId] += $"\n{result.product.ProductName} - {result.rfq.Quantity}";
+        }
+    }
+
+    ViewData["POS_data"] = POS_data;
+    ViewData["rfqProductsMap"] = rfqProductsMap;
+
+    return View(POS_data);
+}
+
+
 
         // GET: Poes/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -37,6 +62,7 @@ namespace Soniclogistics_updated.Controllers
                 .Include(p => p.Prod)
                 .Include(p => p.Rfq)
                 .Include(p => p.Sup)
+          
                 .FirstOrDefaultAsync(m => m.OrderId == id);
             if (po == null)
             {
@@ -53,6 +79,7 @@ namespace Soniclogistics_updated.Controllers
             ViewData["ProdId"] = new SelectList(_context.Products, "ProdId", "ProdId");
             ViewData["RfqId"] = new SelectList(_context.Rfqs, "RfqId", "RfqId");
             ViewData["SupId"] = new SelectList(_context.Suppliers, "SupId", "SupId");
+          
             return View();
         }
 
@@ -61,17 +88,18 @@ namespace Soniclogistics_updated.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("OrderId,SupId,ProdId,OrderDateTime,Expected_date,Address,City,Country,Status,UserId,RfqId")] Po po)
+        public async Task<IActionResult> Create([Bind("OrderId,SupId,ProdId,OrderDateTime,Expected_date,Address,City,Country,Status,UserId,RfqId,Price")] Po po)
         {
-            if (ModelState.IsValid)
-            {
+            
+            
                 _context.Add(po);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
+               
+            
             ViewData["ProdId"] = new SelectList(_context.Products, "ProdId", "ProdId", po.ProdId);
             ViewData["RfqId"] = new SelectList(_context.Rfqs, "RfqId", "RfqId", po.RfqId);
             ViewData["SupId"] = new SelectList(_context.Suppliers, "SupId", "SupId", po.SupId);
+   
             return View(po);
         }
 
@@ -91,6 +119,7 @@ namespace Soniclogistics_updated.Controllers
             ViewData["ProdId"] = new SelectList(_context.Products, "ProdId", "ProdId", po.ProdId);
             ViewData["RfqId"] = new SelectList(_context.Rfqs, "RfqId", "RfqId", po.RfqId);
             ViewData["SupId"] = new SelectList(_context.Suppliers, "SupId", "SupId", po.SupId);
+        
             return View(po);
         }
 
@@ -99,7 +128,7 @@ namespace Soniclogistics_updated.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("OrderId,SupId,ProdId,OrderDateTime,,Address,City,Country,Status,UserId,RfqId")] Po po)
+        public async Task<IActionResult> Edit(int id, [Bind("OrderId,SupId,ProdId,OrderDateTime,,Address,City,Country,Status,UserId,RfqId,Price")] Po po)
         {
             if (id != po.OrderId)
             {
@@ -129,6 +158,7 @@ namespace Soniclogistics_updated.Controllers
             ViewData["ProdId"] = new SelectList(_context.Products, "ProdId", "ProdId", po.ProdId);
             ViewData["RfqId"] = new SelectList(_context.Rfqs, "RfqId", "RfqId", po.RfqId);
             ViewData["SupId"] = new SelectList(_context.Suppliers, "SupId", "SupId", po.SupId);
+        
             return View(po);
         }
 
@@ -144,6 +174,7 @@ namespace Soniclogistics_updated.Controllers
                 .Include(p => p.Prod)
                 .Include(p => p.Rfq)
                 .Include(p => p.Sup)
+             
                 .FirstOrDefaultAsync(m => m.OrderId == id);
             if (po == null)
             {

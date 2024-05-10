@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Soniclogistics_updated")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd4358be1cc6bf93b52ba204e62ae466e7e7a1e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a4b19411e7f551404338b5136d86685b68c6bd0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Soniclogistics_updated")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Soniclogistics_updated")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

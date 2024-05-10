@@ -27,10 +27,14 @@ public partial class Grn
     public int BatchNo { get; set; }
 
     [Column("Approved Warehouse")]
-    public int ApprovedWarehouse { get; set; }
+    [StringLength(300)]
+    [Unicode(false)]
+    public string ApprovedWarehouse { get; set; } 
 
     [Column("Unapproved Warehouse")]
-    public int UnapprovedWarehouse { get; set; }
+    [StringLength(300)]
+    [Unicode(false)]
+    public int UnapprovedWarehouse { get; set; } 
 
     [Column("Sup_id")]
     public int SupId { get; set; }

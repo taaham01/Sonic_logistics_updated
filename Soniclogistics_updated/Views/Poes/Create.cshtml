@@ -29,7 +29,11 @@
                 <input asp-for="Expected_date" class="form-control" />
                 <span asp-validation-for="Expected_date" class="text-danger"></span>
             </div>
-
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
             <div class="form-group">
                 <label asp-for="City" class="control-label"></label>
                 <input asp-for="City" class="form-control" />
@@ -55,24 +59,23 @@
                 <select asp-for="RfqId" class="form-control" asp-items="ViewBag.RfqId"></select>
             </div>
             <div class="form-group">
+                <label asp-for="ProdId" class="control-label"></label>
+                <select asp-for="ProdId" class="form-control" asp-items="ViewBag.ProdId"></select>
+            </div>
+            <div class="form-group">
                 <label asp-for="SupId" class="control-label"></label>
                 <select asp-for="SupId" class="form-control" asp-items="ViewBag.RfqId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
             </div>
 
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
-            <table id="rfqProducts">
-                <thead>
-                    <tr>
-                        <th>Product Name</th>
-                        <th>Quantity</th>
-                        <th>Item Description</th>
-                        <th></th>
-                    </tr>
-                </thead>
-              
-            <button type="button" id="addRow" class="btn btn-sm btn-primary">Add Row</button>
+           
 
         </form>
     </div>
@@ -82,8 +85,10 @@
     <a asp-action="Index">Back to List</a>
 </div>
 
+
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
 }
+console.log(Price);
