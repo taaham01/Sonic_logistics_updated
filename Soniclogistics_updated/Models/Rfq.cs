@@ -29,6 +29,7 @@ public partial class Rfq
     [Column("prod_ID")]
     public int ProductName { get; set; }
 
+
     [Column("quantity")]
     public int Quantity { get; set; }
 
@@ -43,6 +44,7 @@ public partial class Rfq
     public string? Currency { get; set; }
 
  
+
     [InverseProperty("Rfq")]
     public virtual ICollection<Po> Pos { get; set; } = new List<Po>();
 }

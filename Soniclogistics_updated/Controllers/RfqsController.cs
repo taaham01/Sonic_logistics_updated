@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using Soniclogistics_updated.Models;
 
 namespace Soniclogistics_updated.Controllers
@@ -45,25 +46,50 @@ namespace Soniclogistics_updated.Controllers
         // GET: Rfqs/Create
         public IActionResult Create()
         {
+            var productNames = _context.Products.Select(p => p.ProductName).ToList();
+            ViewData["ProductNames"] = productNames;
             return View();
         }
 
         // POST: Rfqs/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        //  [HttpPost]
+        // [ValidateAntiForgeryToken]
+        //   public async Task<IActionResult> Create([Bind("RfqId,OperationalUnit,ShippingAddress,CreateDate,ProdId,Quantity,ItemDiscription,Currency")] Rfq rfq)
+        //   {
+        //     if (ModelState.IsValid)
+        //     {
+        //     _context.Add(rfq);
+        //      await _context.SaveChangesAsync();
+        //      return RedirectToAction(nameof(Index));
+        //  }
+        //  return View(rfq);
+        // }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("RfqId,OperationalUnit,ShippingAddress,CreateDate,ProdId,Quantity,ItemDiscription,Currency")] Rfq rfq)
+        public async Task<IActionResult> Create([Bind("RfqId,OperationalUnit,ShippingAddress,CreateDate,Currency")] Rfq rfq, string productDetailsJson)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(rfq);
                 await _context.SaveChangesAsync();
+
+                if (!string.IsNullOrEmpty(productDetailsJson))
+                {
+                    var productDetails = JsonConvert.DeserializeObject<List<Rfq>>(productDetailsJson);
+                    foreach (var productDetail in productDetails)
+                    {
+                        productDetail.RfqId = rfq.RfqId; // Set the RFQ ID for each product detail
+                        _context.Add(productDetail);
+                    }
+                    await _context.SaveChangesAsync();
+                }
+
                 return RedirectToAction(nameof(Index));
             }
             return View(rfq);
         }
-
         // GET: Rfqs/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {

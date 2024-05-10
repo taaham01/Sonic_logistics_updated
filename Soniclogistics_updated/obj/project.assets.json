@@ -7845,11 +7845,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Soniclogistics_updated.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\New folder\\Soniclogistics_updated\\Soniclogistics_updated.csproj",
       "projectName": "Soniclogistics_updated",
-      "projectPath": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Soniclogistics_updated.csproj",
+      "projectPath": "C:\\Users\\Administrator\\source\\repos\\New folder\\Soniclogistics_updated\\Soniclogistics_updated.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\source\\repos\\New folder\\Soniclogistics_updated\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

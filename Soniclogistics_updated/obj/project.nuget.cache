@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZuCkUixZ5SLqCG4OydQ+GWGfeYTJfauZVs0Yy41Fj3PcCBdF1OahAMMuyqCfUnwMHq34hFxuFlZtAA/REAL5rQ==",
+  "dgSpecHash": "K89f9BttUTUT2dRuDOSsxcgQsKzOFAS5cXHRMSWRyTe5Rq3eChA/XQCjJ+zpUTeoYfcWj8JuZ340sZB4yETl6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\Soniclogistics_updated\\Soniclogistics_updated\\Soniclogistics_updated.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\New folder\\Soniclogistics_updated\\Soniclogistics_updated.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

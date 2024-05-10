@@ -22,8 +22,8 @@ public partial class Po
     [Column("order_date/time", TypeName = "datetime")]
     public DateTime OrderDateTime { get; set; }
 
-    [Column("shipped_date")]
-    public DateOnly ShippedDate { get; set; }
+    [Column("Expected_date")]
+    public DateOnly Expected_date { get; set; }
 
     [Column("address")]
     [StringLength(50)]

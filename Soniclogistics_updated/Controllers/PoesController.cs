@@ -49,6 +49,7 @@ namespace Soniclogistics_updated.Controllers
         // GET: Poes/Create
         public IActionResult Create()
         {
+
             ViewData["ProdId"] = new SelectList(_context.Products, "ProdId", "ProdId");
             ViewData["RfqId"] = new SelectList(_context.Rfqs, "RfqId", "RfqId");
             ViewData["SupId"] = new SelectList(_context.Suppliers, "SupId", "SupId");
@@ -60,7 +61,7 @@ namespace Soniclogistics_updated.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("OrderId,SupId,ProdId,OrderDateTime,ShippedDate,Address,City,Country,Status,UserId,RfqId")] Po po)
+        public async Task<IActionResult> Create([Bind("OrderId,SupId,ProdId,OrderDateTime,Expected_date,Address,City,Country,Status,UserId,RfqId")] Po po)
         {
             if (ModelState.IsValid)
             {
@@ -98,7 +99,7 @@ namespace Soniclogistics_updated.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("OrderId,SupId,ProdId,OrderDateTime,ShippedDate,Address,City,Country,Status,UserId,RfqId")] Po po)
+        public async Task<IActionResult> Edit(int id, [Bind("OrderId,SupId,ProdId,OrderDateTime,,Address,City,Country,Status,UserId,RfqId")] Po po)
         {
             if (id != po.OrderId)
             {

@@ -18,6 +18,7 @@
                 <input asp-for="OperationalUnit" class="form-control" />
                 <span asp-validation-for="OperationalUnit" class="text-danger"></span>
             </div>
+            
             <div class="form-group">
                 <label asp-for="ShippingAddress" class="control-label"></label>
                 <input asp-for="ShippingAddress" class="form-control" />
@@ -29,28 +30,46 @@
                 <span asp-validation-for="CreateDate" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ProductName" class="control-label"></label>
-                <input asp-for="ProductName" class="form-control" />
-                <span asp-validation-for="ProductName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Quantity" class="control-label"></label>
-                <input asp-for="Quantity" class="form-control" />
-                <span asp-validation-for="Quantity" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ItemDiscription" class="control-label"></label>
-                <input asp-for="ItemDiscription" class="form-control" />
-                <span asp-validation-for="ItemDiscription" class="text-danger"></span>
-            </div>
-            
-            
-            <div class="form-group">
                 <label asp-for="Currency" class="control-label"></label>
                 <input asp-for="Currency" class="form-control" />
                 <span asp-validation-for="Currency" class="text-danger"></span>
             </div>
-        
+            <table id="rfqProducts">
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Quantity</th>
+                        <th>Item Description</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <select asp-for="ProductName" class="form-control">
+                                <option value="">Select Product</option>
+                                @foreach (var productName in ViewData["ProductNames"] as List<string>)
+                                {
+                                    <option value="@productName">@productName</option>
+                                }
+                            </select>
+                            <span asp-validation-for="ProductName" class="text-danger"></span>
+                        </td>
+                        <td>
+                            <input asp-for="Quantity" class="form-control" />
+                            <span asp-validation-for="Quantity" class="text-danger"></span>
+                        </td>
+                        <td>
+                            <textarea asp-for="ItemDiscription" class="form-control"></textarea>
+                            <span asp-validation-for="ItemDiscription" class="text-danger"></span>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-sm btn-danger remove-row">Remove</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <button type="button" id="addRow" class="btn btn-sm btn-primary">Add Row</button>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
@@ -64,4 +83,40 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        $(document).ready(function () {
+            $("#addRow").click(function () {
+                var newRow = `
+                                <tr>
+                                    <td>
+                                        <select asp-for="ProductName" class="form-control">
+                                            <option value="">Select Product</option>
+        @foreach (var productName in ViewData["ProductNames"] as List<string>)
+        {
+                                                        <option value="@productName">@productName</option>
+        }
+                                        </select>
+                                        <span asp-validation-for="ProductName" class="text-danger"></span>
+                                    </td>
+                                    <td>
+                                        <input asp-for="Quantity" class="form-control" />
+                                        <span asp-validation-for="Quantity" class="text-danger"></span>
+                                    </td>
+                                    <td>
+                                        <textarea asp-for="ItemDiscription" class="form-control"></textarea>
+                                        <span asp-validation-for="ItemDiscription" class="text-danger"></span>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-sm btn-danger remove-row">Remove</button>
+                                    </td>
+                                </tr>
+                                `;
+                $("#rfqProducts tbody").append(newRow);
+            });
+
+            $(document).on("click", ".remove-row", function () {
+                $(this).closest("tr").remove();
+            });
+        });
+    </script>
 }

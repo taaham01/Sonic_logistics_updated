@@ -17,159 +17,159 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Soniclogistics_updated
 build_property.RootNamespace = Soniclogistics_updated
-build_property.ProjectDir = C:\Users\Administrator\source\repos\Soniclogistics_updated\Soniclogistics_updated\
+build_property.ProjectDir = C:\Users\Administrator\source\repos\New folder\Soniclogistics_updated\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Administrator\source\repos\Soniclogistics_updated\Soniclogistics_updated
+build_property.MSBuildProjectDirectory = C:\Users\Administrator\source\repos\New folder\Soniclogistics_updated
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Grns/Create.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Grns/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Juc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Grns/Delete.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Grns/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Juc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Grns/Details.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Grns/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Juc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Grns/Edit.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Grns/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Juc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Grns/Index.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Grns/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Juc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Home/Index.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Home/Privacy.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Invoices/Create.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Invoices/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Invoices/Delete.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Invoices/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Invoices/Details.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Invoices/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Invoices/Edit.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Invoices/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Invoices/Index.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Invoices/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Poes/Create.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Poes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9lc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Poes/Delete.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Poes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9lc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Poes/Details.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Poes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9lc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Poes/Edit.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Poes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9lc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Poes/Index.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Poes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9lc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Products/Create.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Products/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Products/Delete.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Products/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Products/Details.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Products/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Products/Edit.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Products/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Products/Index.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Rfqs/Create.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Rfqs/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmZxc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Rfqs/Delete.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Rfqs/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmZxc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Rfqs/Details.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Rfqs/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmZxc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Rfqs/Edit.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Rfqs/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmZxc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Rfqs/Index.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Rfqs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmZxc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Shared/Error.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Suppliers/Create.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Suppliers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Suppliers/Delete.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Suppliers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Suppliers/Details.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Suppliers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Suppliers/Edit.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Suppliers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Suppliers/Index.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Suppliers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/_ViewImports.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/_ViewStart.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrator/source/repos/Soniclogistics_updated/Soniclogistics_updated/Views/Shared/_Layout.cshtml]
+[C:/Users/Administrator/source/repos/New folder/Soniclogistics_updated/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-owvv2uqcx5
